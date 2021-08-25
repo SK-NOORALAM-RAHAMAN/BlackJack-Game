@@ -1,0 +1,167 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 3px 2px 4px rgba(207, 16, 57, 0.911);
+
+}
+
+/* About */
+.about{
+    margin-top: 25px ;
+    margin-bottom: 10px ;
+}
+.about a{
+    text-decoration: none;
+    color: blue;
+}
+#about-btn{
+    width: 18rem;
+    border: 2px solid black;
+    
+}
+#about-btn:hover{
+    border: 2px solid red;
+    
+}
+
+/* Container */
+.container {
+
+    margin: 2rem;
+    border: 2px solid black;
+    background-color: green;
+}
+
+/* Result */
+h3 {
+    font-size: 2rem;
+    margin: 1rem;
+    color: white;
+}
+
+/*  Main-Box */
+.inner-container-row-1 {
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.cardBox {
+    background-color: rgb(51, 236, 51);
+    width: 70vw;
+    height: 60vh;
+    border: 1px solid black;
+    box-shadow: inset 5px 17px 30px 30px rgb(34, 126, 15);
+
+}
+
+.cardBox h3 {
+    color: wheat;
+}
+
+.imgBox {
+    display: flex;
+    margin: 5px;
+}
+
+.cardBox img {
+    width: 5rem;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+/* Game Buttons */
+.btn {
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+button {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#hit {
+    background-color: rgb(136, 136, 245);
+}
+
+#hit:hover {
+    box-shadow: 2px 2px 22px 11px rgb(14, 239, 247);
+}
+
+#stand {
+    background-color: rgb(233, 199, 45);
+}
+
+#stand:hover {
+    box-shadow: 2px 2px 22px 11px rgb(247, 232, 14);
+}
+
+#deal {
+    background-color: rgb(247, 107, 107);
+}
+
+#deal:hover {
+    box-shadow: 2px 2px 22px 10px rgb(245, 104, 104);
+}
+
+
+/* Table */
+.inner-container-row-3 {
+    border: 2px solid black;
+
+}
+
+table {
+    background-color: wheat;
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+th,
+td {
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 0px;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width:750px) {
+    h3,button{
+       font-size: 1rem;
+       margin: 5px;
+    }
+    .btn{
+        justify-content: center;
+    }
+    .container {
+       width:100%;
+       margin: 0px;
+    }
+    .cardBox img {
+        width: 2rem;
+    }
+    
+}
+@media only screen and (max-width:380px) {
+    #about-btn{
+        width: 10rem;
+      
+        
+    }
+}

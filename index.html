@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack | Let's Play with Cards</title>
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>BlackJack Game</h1>
+    </header>
+    <main>
+        <!-- About button -->
+        <div class="about">
+            <button id="about-btn"> <a
+                    href="https://bicyclecards.com/how-to-play/blackjack/#:~:text=The%20Dealer's%20Play,point%20the%20dealer%20must%20stand."
+                    target="_blank">How to Play?</a> </button>
+        </div>
+
+        <!-- Main Container -->
+        <div class="container">
+            <h3><span id="result">Let's Play</span> </h3>
+            <div class="inner-container-row-1">
+                <div class='cardBox' id="YouBox">
+                    <h3>You:<span id="urs-result">0</span></h3>
+                    <div class="imgBox">
+                        <!-- Your Box -->
+                    </div>
+                </div>
+                <div class='cardBox' id="DealerBox">
+                    <h3>Dealer:<span id="bot-result">0</span></h3>
+                    <div class="imgBox">
+                        <!-- Bot's Box -->
+                    </div>
+                </div>
+            </div>
+            <!-- Game Buttons -->
+            <div class="inner-container-row-2">
+                <div class="btn">
+                    <button id="hit">Hit</button>
+                    <button id="stand">Stand</button>
+                    <button id="deal">Deal</button>
+
+                </div>
+            </div>
+            <!-- Game result's table -->
+            <div class="inner-container-row-3">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+
+                    </tr>
+                    <tr>
+                        <td><span id="wins">0</span></td>
+                        <td><span id="losses">0</span></td>
+                        <td><span id="draws">0</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Javascript file link -->
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>
