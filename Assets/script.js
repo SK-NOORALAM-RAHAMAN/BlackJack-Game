@@ -78,7 +78,6 @@ function deal() {
     if (BlackJack['turnsOver'] === true) {
 
         BlackJack['isStand'] = false;
-        BlackJack['isHit'] = false;
         let youImgs = document.querySelector('#YouBox').querySelectorAll('img');
         let dealerImgs = document.querySelector('#DealerBox').querySelectorAll('img');
         for (let i = 0; i < youImgs.length; i++) {
@@ -129,6 +128,7 @@ function sleep(ms) {
 async function dealerPlay() {
     if (BlackJack["isHit"] === true) {
 
+        BlackJack["isHit"] = false;
         BlackJack["isStand"] = true;
 
         while ((DEALER["score"] < 16) && (BlackJack["isStand"] === true)) {

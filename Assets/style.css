@@ -160,8 +160,9 @@ td {
 }
 @media only screen and (max-width:380px) {
     #about-btn{
-        width: 10rem;
-      
-        
+        width: 10rem;  
+    }
+    .cardBox{
+        height: 40vh;
     }
 }
