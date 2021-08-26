@@ -15,16 +15,38 @@
     <header>
         <h1>BlackJack Game</h1>
     </header>
-    <main>
-        <!-- About button -->
-        <div class="about">
-            <button id="about-btn"> <a
-                    href="https://bicyclecards.com/how-to-play/blackjack/#:~:text=The%20Dealer's%20Play,point%20the%20dealer%20must%20stand."
-                    target="_blank">How to Play?</a> </button>
-        </div>
 
+    <!-- Popup Menu -->
+    <div class="about">
+        <button id="exit">X</button>
+        <h3>GamePlay</h3>
+        <div id="text">
+            <span>1. Click on the "Hit" button and notice the Score [You:0] will increase everytime.</span>
+            <br> <br>
+            <span>2. You have to click repeatedly on "Hit" button and carefully set a score of &les; 21 to win
+                the
+                Game. If you cross 21 then you will 'burst' the score.</span>
+            <br> <br>
+            <span>3. Then click on the "Stand" button & wait till *Bot/Dealer* play all it's turns.</span>
+            <br> <br>
+            <span>4. Now you can notice the result on the top and the score table on the bottom will be
+                updated.</span>
+            <br> <br>
+            <span>5. Next, Click on the "Deal" button.
+                It will reset the Current Gameplay but the score table will be the same.</span>
+            <br> <br>
+            <span>6. By following the upper instructions you can play again n again and try to beat the
+                *Bot/Dealer*.</span>
+        </div>
+        <br>
+        <h4>Have FUN :)</h4>
+    </div>
+    <main>
+        <!-- popup button -->
+        <button id="pop"> How to Play? </button>
         <!-- Main Container -->
         <div class="container">
+
             <h3><span id="result">Let's Play</span> </h3>
             <div class="inner-container-row-1">
                 <div class='cardBox' id="YouBox">

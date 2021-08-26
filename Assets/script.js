@@ -26,6 +26,21 @@ document.querySelector('#stand').addEventListener('click', dealerPlay); //
 
 document.querySelector('#deal').addEventListener('click', deal); // 
 
+// Adding EventListner for popup Manu
+
+const pop = document.getElementById('pop');
+pop.addEventListener('click', function about() {
+    document.querySelector('.about').style.display = 'flex';
+});
+
+
+const exit = document.getElementById('exit');
+exit.addEventListener('click', function reset() {
+    document.querySelector('.container').style.opacity = '1';
+    document.querySelector('.about').style.display ='none';
+});
+
+
 // Function for Hit button
 function hit(e) {
 
