@@ -178,74 +178,41 @@ td {
 }
 
 /* Media Queries for Responsiveness */
-@media only screen and (max-width:1027px) {
-    .about{
-        width: 80vw;
-        font-size: large;
-        height: 50vh;
-    }
-    .cardBox{
-        height: 40vh;
-    }
-    table{
-        font-size: 30px;
-    }
-    
-}
+@media only screen and (max-width:500px) {
 
-@media only screen and (max-width:770px) {
-    h3,button{
-       font-size: 2rem;
-       margin: 5px;
-    }
-    .btn{
-        justify-content: center;
-    }
-    .container {
-       width:100%;
-       margin: 0px;
-    }
-    .cardBox img {
-        width: 4rem;
+    .container{
+        width: 100vw;
+        margin: 0px;
+        margin-top: 20px;
     }
     .about{
-        width: 80vw;
-        font-size: large;
-        height: 60vh;
-    }
-    #pop{
-        margin-bottom: 2rem;
-    }
-    .btn button{
-        margin-left:15px ;
-        font-size: x-large;
-    }
-}
-@media only screen and (max-width:380px) {
-    #pop{
-        margin-bottom: 2rem;
-    }
-    .cardBox{
-        height: 50vh;
-    }
-    .cardBox img{
-        width: 3rem;
-    }
-    .about{
-        width: 80vw;
+        width: 90vw;
         font-size: small;
-        height: 70vh;
+        height: 78vh;
     }
-    .btn button{
-        margin-left:15px ;
-        font-size: large;
+    #text{
+        flex-wrap: wrap;
     }
-    table{
-        font-size: 20px;
-    }
-
     h3{
         font-size: large;
     }
-  
+    .cardBox img{
+        width: 60px;
+    }
+    table{
+        font-size: x-large;
+    }
+}
+@media only screen and (max-width:370px) {
+
+    #text{
+        font-size: X-small;
+    }
+    
+    .cardBox img{
+        width: 40px;
+    }
+    table{
+        font-size: medium;
+    }
 }
