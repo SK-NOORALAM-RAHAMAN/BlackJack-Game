@@ -126,6 +126,11 @@ h3 {
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 button {
     font-size: 2rem;
     cursor: pointer;
@@ -205,12 +210,18 @@ td {
 }
 @media only screen and (max-width:370px) {
 
+    h1{
+        font-size:  2rem;
+    }
+    #pop{
+        font-size: medium;
+    }
     #text{
         font-size: X-small;
     }
     
     .cardBox img{
-        width: 40px;
+        width: 50px;
     }
     table{
         font-size: medium;
